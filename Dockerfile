@@ -1,4 +1,4 @@
-FROM isuper/java-oracle:jdk_latest
+FROM java:8
 
 # Configuration variables.
 ENV JIRA_HOME     /var/atlassian/jira
